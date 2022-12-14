@@ -1,7 +1,6 @@
 using DnsClient;
 using Microsoft.Azure.Amqp.Framing;
 using Microsoft.Extensions.Azure;
-using Movie.Context;
 using Movie.Models;
 using Movie.Services;
 using Microsoft.Extensions.Logging;

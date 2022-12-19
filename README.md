@@ -1,17 +1,16 @@
 # Movie-Review
 A Simple Web API using .Net Core and MongoDB
 
-## Background
 Making an CRUD web based API for the movie review section and store it to the NoSQL database (in this case I'm using MongoDB) through a MongoDB Driver on C#.
 A movie can has many reviews, so the idea is to store the reviews on the same collection(table) as the movie collection. To achieve this, we can store the 
 reviews as array of embedded document and every embedded document has an UserId field that refers to the user master data collection.
 
-## Requirement
+## Requirement :
 [1] MongoDB Server hosted locally => "https://www.mongodb.com/try/download/community"
 
 [2] .NET Core
 
-## How to Use
+## Quick Start :
 
 [1] Create a new database and collection(table) on your localhost MongoDB server. There are 2 attached .json files as a dummy data.
     This is the example of how to add the data to the User collection from the MongoDB Shell and the result.
